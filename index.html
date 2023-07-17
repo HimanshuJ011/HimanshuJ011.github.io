@@ -21,9 +21,9 @@
 <body oncontextmenu="return false">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <!-- pre loader -->
-<!-- <div class="loader-container">
+<div class="loader-container">
   <img draggable="false" src="./assets/images/preloader.gif" alt="">
-</div> -->
+</div>
 
 <!-- navbar starts -->
 <header>
@@ -56,8 +56,6 @@
           <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/himanshujoshi011" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
           <li><a class="github" aria-label="GitHub" href="https://github.com/HimanshuJ011" target="_blank"><i class="fab fa-github"></i></a></li>
           <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/himanshuJ144" target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <!-- <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/jigarsable.dev"><i class="fab fa-instagram" target="_blank"></i></a></li> -->
-          <!-- <li><a class="dev" aria-label="Dev" href="https://dev.to/jigarsable" target="_blank"><i class="fab fa-dev"></i></a></li> -->
         </ul>
       </div>
     </div>
@@ -216,6 +214,38 @@
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
 <script src="./assets/js/script.js"></script>
+
+<script>
+  // Get the particle container element
+const particlesContainer = document.getElementById('particles-js');
+
+// Add touch event listeners
+particlesContainer.addEventListener('touchstart', handleTouchStart, false);
+particlesContainer.addEventListener('touchmove', handleTouchMove, false);
+particlesContainer.addEventListener('touchend', handleTouchEnd, false);
+
+// Touch start event handler
+// Touch start event handler
+function handleTouchStart(event) {
+  // Change particle behavior when touched
+  particlesContainer.style.pointerEvents = 'none';
+}
+
+// Touch move event handler
+function handleTouchMove(event) {
+  // Modify particle animation based on touch movement
+}
+
+// Touch end event handler
+function handleTouchEnd(event) {
+  // Restore particle behavior after touch is released
+  particlesContainer.style.pointerEvents = 'auto';
+}
+handleTouchStart();
+handleTouchMove();
+handleTouchEnd();
+
+</script>
 
 </body>
 </html>
