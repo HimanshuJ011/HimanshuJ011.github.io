@@ -60,11 +60,11 @@ $(document).ready(function () {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Full-stack Developer", "Freelancer"],
+    strings: ["Full-stack Developer", "Freelancer", "Open-Source Contributor"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
-    backDelay: 1000,
+    backDelay: 2000,
 });
 // <!-- typed js effect ends -->
 
