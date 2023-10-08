@@ -144,7 +144,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #6c6fb9;
   }
   header .navbar ul {
     flex-flow: column;
@@ -190,7 +190,7 @@ header .navbar ul li a:hover {
   align-items: center;
 }
 .home #particles-js {
-  background-color:#b5f3ee;
+  background-color:#d3c7ffda;
   position: absolute;
   top: 0;
   left: 0;
