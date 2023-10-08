@@ -119,7 +119,7 @@ function fadeOut() {
 window.onload = fadeOut;
 // pre loader end
 
-// disable developer mode
+// // disable developer mode
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false;
